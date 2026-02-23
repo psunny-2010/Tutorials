@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorials</title>
+    <link rel="icon" type="img/png" sizes="64*64" href="data:image/jpeg;base64,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">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+              line-height: 1.6;
+             color: rgb(51, 51, 51);
+             margin: 0;
+             padding: 0;
+        }
+        *{
+            box-sizing: border-box;
+        }
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 54vh;
+        width: 100%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+    }
+    header h1{
+        font-size: 48px;
+        padding: 0;
+        margin: 70px 0 0 0;
+    }
+    header p{
+        font-size: 21px;
+        padding: 0;
+        margin: 20px 0 0 0;
+    }
+    .buttons{
+        display: flex;
+        margin-top: 24px;
+        gap: 20px;
+    }
+    .buttons a{
+        height: 53px;
+        width:155px ;
+        background-color: white;
+        border-radius: 50px;
+        color:#667eea ;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+
+    }
+    #explore{
+        width: 175px;
+        background: transparent;
+         border:solid 2px white ;
+         color: white;
+    }
+    .buttons a:hover{
+        transform: translateY(-3px);
+        transition: transform 0.2s linear;
+        background-color: #f2f2f2;
+    }
+      #explore:hover{
+        transform: translateY(-3px);
+        transition: transform 0.2s linear;
+        background-color: rgba(255, 255, 255, 0.327);
+    }
+    #section-1{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.179);
+        background-color: white;
+      
+    }
+    .sec1cont{
+        width: 70%;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sec1cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec1cards h2{
+        font-size: 33px;
+        color: rgb(118, 75, 162);
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .sec1cards p{
+         margin: 8px 0 0 0;
+        padding: 0;
+    }
+    #section-2{
+        background-color: #f2f2f2;
+        width: 100%;
+        height: 187vh;
+        margin-top: 9px;
+        padding: 0;
+        overflow: hidden;
+    }
+    .rect{
+        border: solid 3.5px #667eea;
+        width: 20px;
+        height: 30px;
+          margin:0 0 17px -15px;
+        background-color: transparent;  
+    }
+    .choose{
+        width: 75%;
+        height: 350px;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+    .choose h1{
+        margin: 0;
+        padding: 0;
+        font-size: 32.5px;
+    }
+    .choosecont{
+        display: flex;
+        justify-content: space-between;
+    }
+    .choosecards{
+        width: 260px;
+        height: 265px;
+        box-shadow: 0 4px 6px rgb(0,0,0,0.1);
+        margin-top: 30px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        padding: 0;
+    }
+    .chooserect{
+        height: 40px;
+        width: 25px;
+        border: 3.5px solid #667eea;
+        background-color: transparent;
+        margin-top: 45px;
+    }
+    .choosecards h3{
+        margin: 0;
+        padding: 0;
+           margin-top: 20px;
+    }
+     .choosecards p{
+        margin: 0;
+        padding: 0;
+         margin-top: 20px;
+    }
+    .choose1 h3{
+         margin: 65px 0 0 0;
+         padding: 0;
+    }
+     .choose1 p{
+         margin: 18px 0 0 0;
+         padding: 0;
+    }
+    #learning{
+         width: 75%;
+        height: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        padding: 0;
+
+    }
+    #learning h1{
+          margin: 0;
+        padding: 0;
+        font-size: 32.5px;
+    }
+    .coursecont{
+        width: 100%;
+        height:fit-content;
+        display: grid;
+        grid-auto-rows: 325px;
+        grid-template-columns: repeat(3,1fr);
+         gap: 25px;
+         margin-top: 30px;
+
+    }
+    .course{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgb(0,0,0,0.1);
+        text-align: left;
+        cursor: pointer;
+    }
+    .course:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 9px 12px rgb(0,0,0,0.3);
+        transition: all linear 0.3s;
+    }
+    .course h2{
+        margin: 33% 0 0 20px;
+        padding: 0;
+        font-size: 20.9px;
+        color: #667eea;
+    }
+      .course p{
+        margin: 10px 0 0 20px;
+        padding: 0;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        color: rgba(0, 0, 0, 0.597);
+    }
+    .perccont{
+        height: 9px;
+        width: 88%;
+        margin: 0 auto;
+        border: solid 1px black;
+        border-radius: 50px;
+        background-color: #f2f2f2;
+        margin-top: 15px;
+    }
+    .html{
+        height: 100%;
+        width: 96%;
+        border-radius: 50px;
+        background:linear-gradient(to right,#667eea, #764ba2) ;
+    }
+    .css{
+        height: 100%;
+        width: 80%;
+        border-radius: 50px;
+        background:linear-gradient(to right,#667eea, #764ba2) ;
+    }
+    .js{
+        height: 100%;
+        width: 50%;
+        border-radius: 50px;
+        background:linear-gradient(to right,#667eea, #764ba2) ;
+    }
+    .proj{
+        height: 100%;
+        width: 69%;
+        border-radius: 50px;
+        background:linear-gradient(to right,#667eea, #764ba2) ;
+    }
+    .percpara{
+        margin-top: 40px;
+    }
+    #section-3{
+        width: 100%;
+        height: 129vh;
+        background-color: #f2f2f2;
+    }
+    .sec3cont{
+        width: 75%;
+        height: 650px;
+        margin: 0 auto;
+        padding: 0;
+        background-color: #f8f9fa;
+        text-align: center;        
+    }
+    .sec3cont h1{
+        font-size: 32.5px;
+        margin: 50px 0 0 0;
+    }
+    .say{
+        width: 100%;
+        height: 240px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: 0 15px;
+        gap: 30px;
+        margin-top:40px ;
+    }
+    .saycards{
+        height: 100%;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 4px 6px rgb(0,0,0,0.1);
+        text-align: left;
+        padding: 25px 0 0 30px;
+    }
+    .cardin{
+        display: flex;
+        width: 90%;
+        height: 50px;
+        margin-top: 25px;
+        gap: 20px;
+    }
+    .circ{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        color: white;
+        background-color: #667eea;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rect3{
+        width: 9px;
+        height: 14px;
+        border: solid 2px white;
+        background-color: transparent;
+    }
+    .cardin ul{
+       list-style: none;
+       margin: 0;
+       padding: 0;
+    }
+    .cardin ul h3{
+        margin: 0;
+        padding: 0;
+        font-size: 17px;
+    }
+     .cardin ul p{
+        margin: 0;
+        padding: 0;
+        font-size: 14.5px;
+    }
+    .stay{
+        width: 100%;
+        height: 270px;
+        background:linear-gradient(to right,#667eea,#764ba2);
+        margin: 0 auto;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .stay p{
+        font-size: 17.5px;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    input{
+        width:250px ;
+        height:45px ;
+        background-color: white;
+        border-radius: 50px;
+        border: none;
+        margin: 0 20px 0 18px;
+        padding: 0 15px;
+    }
+    input::placeholder{
+        font-size: 17px;
+    }
+    button{
+        height: 45px;
+        width: 110px;
+        background-color: white;
+        border-radius: 50px;
+        border: none;
+        color: #667eea;
+        font-size: 14.5px;
+        font-weight: bold;
+    }
+    button:hover{
+      transform: translateY(-4px);
+      transition: transform 0.3s linear;
+      background-color: #f2f2f2;
+    }
+    .sec3end{
+       width: 75%;
+       margin: 50px auto 0 auto;
+       text-align: center;
+    }
+    .sec3end h3{
+        font-size: 25px;
+        margin: 0;
+    }
+    footer{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+         background-color: #333;
+    }
+    .linkscont{
+        width: 75%;
+        height: 80%;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0 auto;
+        }
+    .links{
+        color: white;
+        margin-top: 40px;
+    }
+    .links ul{
+        list-style: none;
+    }
+    .links a{
+        text-decoration: none;
+        color: rgb(222, 219, 219);
+        line-height: 35px;
+    }
+    .links h2{
+        font-size: 20.5px;
+    }
+    .links p{
+        line-height: 28px;
+    }
+    .links a:hover{
+        color: #764ba2;
+        transition: all ease .4s;
+    }
+    .copy{
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        background-color: #222;
+        color: white;
+    }
+    .coursecont a{
+        text-decoration: none;
+
+    }
+    </style>
+</head>
+<body>
+     <header>
+        <h1>Master Web Development</h1>
+        <p>Learn HTML, CSS, and JavaScript from scratch to advanced concepts with <br>
+             our comprehensive tutorial series</p>
+       <div class="buttons">
+         <a href="#learning">Start Learning</a>
+        <a href="#section-2" id="explore">Explore Features</a>
+       </div>
+     </header>
+     <section id="section-1">
+        <div class="sec1cont">
+            <div class="sec1cards">
+                <h2>57+</h2>
+                <p>Comprehensive Lessons</p>
+            </div>
+            <div class="sec1cards">
+                <h2>1000+</h2>
+                <p>Code Examples</p>
+            </div>
+            <div class="sec1cards">
+                  <div class="rect"></div>
+                    <h2>5000+</h2>
+                   <p>Students Enrolled</p>
+            </div>
+            <div class="sec1cards">
+                   <div class="rect"></div>
+                    <h2>95%</h2>
+                   <p>Success Rate</p>
+            </div>
+        </div>
+     </section>
+     <section id="section-2">
+        <div class="choose">
+            <h1>Why Choose Our Tutorials?</h1>
+            <div class="choosecont">
+                <div class="choosecards">
+                    <div class="chooserect">
+                    </div>
+                    <h3>Interactive Editors</h3>
+                    <p>Write and test code directly <br>
+                     in your browser with real- <br>
+                     time previews</p>
+                </div>
+                <div class="choosecards choose1">
+                    <h3>Fully Responsive</h3>
+                    <p>Learn on any device with <br>
+                         our mobile-friendly design</p>
+                </div>
+                <div class="choosecards choose1">
+                     <h3>Hands-on Projects</h3>
+                    <p>Apply your skills with <br>
+                         practical projects and <br>
+                          exercises</p>
+                </div>
+                <div class="choosecards">
+                      <div class="chooserect">
+                    </div>
+                    <h3>Certification</h3>
+                    <p>Earn certificates upon
+                         <br> completing each tutorial <br>
+                         series</p>
+                </div>
+            </div>
+        </div>
+        <div id="learning">
+            <h1>Choose Your Learning Path</h1>
+            <div class="coursecont">
+              <div class="course"><a href="./HTML_Tutorials.html">  
+                    <h2>HTML Tutorial Series</h2>
+                    <p>Learn HTML from basic to advanced <br> concepts</p>
+                    <p>19 comprehensive Lessons</p>
+                    <div class="perccont"><div class="perc html"></div></div>
+                    <p class="percpara">96% completed</p>
+                </a></div>
+                <div class="course">
+                      <h2>CSS Tutorial Series</h2>
+                    <p>Learn CSS from fundamentals to animations</p>
+                    <p>19 comprehensive Lessons</p>
+                    <div class="perccont"><div class="perc css"></div></div>
+                    <p class="percpara">80% completed</p>
+                </div>
+                <div class="course">
+                      <h2>JavaScript Tutorial Series</h2>
+                    <p>Learn HTML from basic to advanced  <br>concepts</p>
+                    <p>19 comprehensive Lessons</p>
+                    <div class="perccont"><div class="perc js"></div></div>
+                    <p class="percpara">50% completed</p>
+                </div>
+                <div class="course">
+                      <h2>Integrated Project</h2>
+                    <p>combine HTML, CSS, and Javascript in a <br>
+                         complete project</p>
+                    <p>Hands-on aplication development</p>
+                    <div class="perccont"><div class="perc proj"></div></div>
+                    <p class="percpara">69% completed</p>
+                </div>
+            </div>
+        </div>
+     </section>
+     <section id="section-3">
+        <div class="sec3cont">
+            <h1>What Our Students Say</h1>
+            <div class="say">
+                <div class="saycards">
+                    <p><i>"These tutorials helped me land my first <br>
+                         web development job. The interactive <br>
+                          editors made learning so much easier!"</i></p>
+                    <div class="cardin">
+                        <div class="circ"><div class="rect3"></div></div>
+                        <ul>
+                            <li><h3>Sarah Johnson</h3></li>
+                            <li><p>Frontend Developer</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="saycards">
+                       <p><i>
+                        "The progression from basic to advanced <br>
+                         concepts is perfect. I went from zero  <br>
+                         knowledge to building my own website in <br>
+                          just 2 months!"
+                       </i></p>
+                    <div class="cardin">
+                        <div class="circ"><div class="rect3"></div></div>
+                        <ul>
+                            <li><h3>Michael Chen</h3></li>
+                            <li><p>UI/UX Designer</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="saycards">
+                       <p><i>"The integrated project was the highlight. <br>
+                         It showed me how all the technologies <br>
+                          work together in real applications."</i></p>
+                    <div class="cardin">
+                        <div class="circ"><div class="rect3"></div></div>
+                        <ul>
+                            <li><h3>Emma Rodriguez</h3></li>
+                            <li><p>Full Stack Developer</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="stay">
+                <h1>Stay Updated</h1>
+                <p>Subscribe to our newsletter for new tutorials, tips, and resources</p>
+                <div class="form">
+                                    <label for="email">Email address</label><input type="email" name="" id="email" placeholder="Enter Your Email"><button type="submit">Subscribe</button>
+
+                </div>
+            </div>
+           
+        </div>
+         <div class="sec3end">
+                <h3>Learning Path</h3>
+                <p>Start with HTML to understand the structure of web pages, then move to CSS to learn styling and layout. <br>
+                     Finally, learn JavaScript to add interactivity and dynamic behavior to your websites.</p>
+            </div>
+     </section>
+     <footer>
+        <div class="linkscont">
+            <div class="links">
+                <h2>Web Development <br>
+                     Tutorials</h2>
+                <p>Comprehensive learning platform for <br>
+                     HTML, CSS, and JavaScript</p>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><h3>Quick Links</h3></li>
+                    <li><a href="">HTML Tutorials</a></li>
+                    <li><a href="">CSS Tutorials</a></li>
+                    <li><a href="">JavaScript Tutorials</a></li>
+                    <li><a href="">Integrated Project</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                  <ul>
+                    <li><h3>Resources</h3></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Documentation</a></li>
+                    <li><a href="">Community</a></li>
+                    <li><a href="">Support</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                  <ul>
+                    <li><h3>Contact Us</h3></li>
+                    <li> support@webtutorials.com</li>
+                    <li>+1 (555) 123-4567</li>
+            </div>
+                  </ul>
+        </div>
+        <div class="copy">
+            <p>© 2025 Web Development Tutorials. All rights reserved.</p>
+        </div>
+     </footer>
+</body>
+</html>
